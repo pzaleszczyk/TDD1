@@ -1,5 +1,5 @@
 language: java
-jdk:
-  - oraclejdk8
-  - oraclejdk9
-  - openjdk8
+script:
+    - javac -d bin -cp .:/usr/share/java/junit.jar:/usr/share/java/hamcrest-core.jar App/RomanNumeral.java
+    - javac -d bin -cp .:bin/:/usr/share/java/junit.jar:/usr/share/java/hamcrest-core.jar Test/RomanNumeralsTest.java
+    - java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore bin/RomanNumeralsTest
