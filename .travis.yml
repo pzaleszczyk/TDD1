@@ -5,4 +5,4 @@ before_install:
   - sudo apt-get update -y
   - sudo apt-get install -y junit4
 script:
-  javac -cp /usr/share/java/junit4.jar RomanNumeralsTest.java RomanNumeral.java; java -cp /usr/share/java/junit4.jar:. org.junit.runner.JUnitCore RomanNumeralsTest
+  javac -cp /usr/share/java/junit4.jar Test/RomanNumeralsTest.java App/RomanNumeral.java; java -cp /usr/share/java/junit4.jar:. org.junit.runner.JUnitCore RomanNumeralsTest
