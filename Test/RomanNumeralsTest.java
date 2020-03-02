@@ -116,14 +116,12 @@ public class RomanNumeralsTest {
         assertEquals("CMXI", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void test1024ToRomanNumberMXXIV() {
         romanNumeral = new RomanNumeral(1024);
         assertEquals("MXXIV", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void test3000ToRomanNumberMMM() {
         romanNumeral = new RomanNumeral(3000);
