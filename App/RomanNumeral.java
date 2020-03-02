@@ -6,6 +6,6 @@ public class RomanNumeral {
 	}
 	public String getRomanNumeral() {
 		
-		return "";
+		return "I";
 	}
 }
