@@ -42,7 +42,7 @@ public class RomanNumeralsTest {
         assertEquals("V", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void test6ToRomanNumberVI() {
         romanNumeral = new RomanNumeral(6);
