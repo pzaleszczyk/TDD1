@@ -13,7 +13,7 @@ public class RomanNumeral {
 		String result = "";
 		int n = number.length()-1;
 		for(int i = 0 ; i < number.length(); i++) {
-			System.out.println(":"+Character.getNumericValue(number.charAt(i)) );
+			//System.out.println(":"+Character.getNumericValue(number.charAt(i)) );
 			if(Character.getNumericValue(number.charAt(i)) < 4) {
 				for(int k = 0 ; k < Character.getNumericValue(number.charAt(i)); k ++ )
 					result += map[n-i];
