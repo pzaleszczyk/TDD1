@@ -1,7 +1,5 @@
-package Test;
-import org.junit.Test;
 
-import App.RomanNumeral;
+import org.junit.Test;
 
 import org.junit.Ignore;
 
