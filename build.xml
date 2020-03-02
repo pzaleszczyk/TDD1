@@ -1,6 +1,6 @@
 <?xml version="1.0"?>   
 <project name="java-junit-template-project" default="test" basedir=".">
-  <property name="main.build.dir" value="build/main" />  
+  <property name="main.build.dir" value="build/App" />  
   <property name="main.src.dir" value="App" />
   <property name="test.build.dir" value="build/Test" />
   <property name="test.src.dir" value="Test" />
@@ -14,14 +14,6 @@
     <path refid="classpath.base" />
   </path>
   
-  <property name='lib.dir' value='lib' />
-
-	<path id='classpath'>
-		<fileset dir="${lib.dir}" includes="**/*.jar" />
-	</path>
-
-  <target name="test" depends="run, clean" />
-
   <target name="compile">
     <mkdir dir="${main.build.dir}"/>
     <javac srcdir="${main.src.dir}" destdir="${main.build.dir}" includeantruntime="false">
