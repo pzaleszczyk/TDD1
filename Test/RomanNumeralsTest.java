@@ -29,7 +29,7 @@ public class RomanNumeralsTest {
         assertEquals("III", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void test4ToRomanNumberIV() {
         romanNumeral = new RomanNumeral(4);
