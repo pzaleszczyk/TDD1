@@ -2,7 +2,7 @@ package App;
 
 public class RomanNumeral {
 	String number;
-	String[] map = {"I","X","C"};
+	String[] map = {"I","X","C","M"};
 	String[] map_fives = {"V","L","D"};
 	
 	public RomanNumeral(int number) {
